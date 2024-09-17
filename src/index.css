@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Allgemeine Stildefinitionen */
+
+/* Stil für die Tabellenzellen */
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.stock-chart {
+  width: 100%;
+  margin: 10px auto; /* auto-Margin für horizontale Zentrierung */
+  max-width: 800px;
+  background-color: rgb(8, 0, 0);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Stil für die Überschriftenzellen */
+th {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+}
+
+/* Stil für die Tabelle */
+.table-container {
+  margin: 20px;
+}
+
+/* Stil für den Portfolio-Balken */
+.portfolio-bar {
+  width: 100%; /* Standardbreite */
+  height: 30px;
+  background-color: #007bff; /* Standardfarbe */
+  transition: width 0.5s; /* Übergangseffekt */
+}
+
+/* Stil für den Portfolio-Balken nach dem Einloggen */
+.logged-in .portfolio-bar {
+  width: 70%; /* Kleinerer Balken nach dem Einloggen */
+}
+
+/* Stil für den Text im Portfolio-Balken */
+.portfolio-text {
+  color: white;
+  text-align: center;
+  line-height: 30px; /* Zentrieren des Textes vertikal */
+}
+/* Stil für die Überschriftenzellen */
+th {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+  color: black; /* Schwarze Schriftfarbe */
+}
+
+
+/* Stil für den grauen Balken */
+.navbar {
+  height: 20px; /* Höhe um 50% reduziert */
+  background-color: #f2f2f2; /* Hintergrundfarbe des Balkens */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* Stil für den grauen Balken */
+.App-header {
+  height: 30px; /* Höhe des grauen Balkens */
+  background-color: #333; /* Hintergrundfarbe des Balkens */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.ApexCharts-tooltip .apexcharts-tooltip-inner {
+  color: black !important;
+}
+
